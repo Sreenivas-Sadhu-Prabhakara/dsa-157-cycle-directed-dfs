@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="736.0" viewBox="0 0 760 736.0" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="734.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Directed Cycle — only the ACTIVE path betrays it</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Directed graphs break the parent rule: 0→1, 0→2, 1→2 revisits 2 with NO cycle. What</text>
+<text x="56.0" y="98.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">matters is meeting a node still ON the current recursion path.</text>
+<line x1="210.3" y1="159.9" x2="421.3" y2="137.3" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="209.0" y1="169.3" x2="422.7" y2="253.0" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="443.2" y1="155.0" x2="443.2" y2="239.0" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="190.4" cy="162.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="190.4" y="167.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">0</text>
+<circle cx="443.2" cy="135.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="443.2" y="140.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="443.2" cy="261.0" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="443.2" y="266.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">2</text>
+<line x1="24.0" y1="309.0" x2="736.0" y2="309.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="329.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="333.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="334.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Three colors: white (untouched), gray (on the active path), black (fully done).</text>
+<text x="56.0" y="353.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Meeting GRAY = cycle; meeting BLACK = harmless diamond. In 0→1→2→0, node 2's edge</text>
+<text x="56.0" y="372.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">hits gray 0.</text>
+<line x1="210.3" y1="433.9" x2="421.3" y2="411.3" stroke="#2563eb" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="443.2" y1="429.0" x2="443.2" y2="513.0" stroke="#2563eb" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="424.6" y1="527.7" x2="210.9" y2="444.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="190.4" cy="436.0" r="18" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+<text x="190.4" y="441.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">0</text>
+<circle cx="443.2" cy="409.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="443.2" y="414.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="443.2" cy="535.0" r="18" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="443.2" y="540.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">2</text>
+<line x1="24.0" y1="583.0" x2="736.0" y2="583.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="603.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="607.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="608.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">The gray/black split is the whole algorithm — a plain visited set can't tell a cycle</text>
+<text x="56.0" y="627.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">from two routes into the same node. Gray-set membership doubles as the cycle's</text>
+<text x="56.0" y="646.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">actual path.</text>
+<text x="72.0" y="681.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">verdicts</text>
+<rect x="84.0" y="662.0" width="279.0" height="28.0" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="223.5" y="681.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">diamond 0→1→2, 0→2 → no cycle</text>
+<rect x="373.0" y="662.0" width="171.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="458.5" y="681.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">0→1→2→0 → cycle ✓</text>
+<text x="380.0" y="718.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
